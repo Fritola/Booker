@@ -24,4 +24,4 @@ yarn-error.log*
 
 
 #tokenAPI
-/src/environment
+/environment
