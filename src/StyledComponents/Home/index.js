@@ -7,6 +7,7 @@ export const MainContainer = styled.div`
 `
 
 export const FormContainer = styled.div`
+flex-direction: column;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -30,4 +31,11 @@ export const FormContainer = styled.div`
 
 export const FormBook = styled.form`  
     display: flex;    
+`
+
+export const BooksContainer = styled.div`
+    margin-top: 30px;
+    flex-wrap: wrap;    
+    display: flex;
+    justify-content: space-around;
 `
