@@ -4,38 +4,27 @@ export const MainContainer = styled.div`
     height: 100vh;
     margin: 0;
     padding: 0;
+    background: #EAECF1;
 `
 
-export const FormContainer = styled.div`
-flex-direction: column;
+export const DashboardInfoContainer = styled.div`
+    display: flex;
+    justify-content: flex-start;
     width: 100%;
-    display: flex;
-    justify-content: center;
+    height: 100%;
     align-items: center;
-    margin-top: 50px;
-
-    input{
-        width: 300px;
-        height: 30px;
-        outline: none;
-        border: solid 1px #000;
-        font-size: 20px;
-        padding: 10px
-    }
-    button{
-        height: auto;
-        border: solid 1px #f00;
-        outline: none;
-    }
+    margin-left: 50px;    
 `
-
-export const FormBook = styled.form`  
-    display: flex;    
+export const DashboardInfo = styled.div`
+    width: 400px;
+    height: 700px;
+    background: #FFF;
+    border-radius: 15px;
 `
-
-export const BooksContainer = styled.div`
-    margin-top: 30px;
-    flex-wrap: wrap;    
-    display: flex;
-    justify-content: space-around;
+export const DashboardTitle = styled.div`
+    padding: 30px;    
+    
+    span{
+        font-family: fantasy        
+    }
 `
